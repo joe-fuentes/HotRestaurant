@@ -1,0 +1,29 @@
+{
+  "name": "hotrest",
+  "version": "1.0.0",
+  "description": "make reservations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joe-fuentes/HotRestaurant.git"
+  },
+  "keywords": [
+    "customers",
+    "and",
+    "waiting-list"
+  ],
+  "author": "Joe Fuentes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joe-fuentes/HotRestaurant/issues"
+  },
+  "homepage": "https://github.com/joe-fuentes/HotRestaurant#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "path": "^0.12.7"
+  }
+}
