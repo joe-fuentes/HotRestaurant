@@ -1,24 +1,27 @@
 {
-  "name": "hotrest",
-  "version": "1.0.0",
-  "description": "make reservations",
-  "main": "index.js",
+  "name": "hotrestaurant",
+  "version": "1.0.1",
+  "description": "reservations",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git"
-  },
-  "keywords": [
-    "reserve"
-  ],
-  "author": "Joe Fuentes",
+  "author": "Alex",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "express": "^4.15.4",
-    "path": "^0.12.7"
-  }
+    "body-parser": "^1.18.0",
+    "express": "^4.15.4"
+  },
+  "engines": {
+    "node": "5.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UCF-Coding-Boot-Camp/05-2017-Class-Repository/"
+  },
+  "keywords": [
+    "restaurant",
+    "reservations"
+  ]
 }
